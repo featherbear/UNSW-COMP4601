@@ -18,3 +18,17 @@ The FPGA composes of an arrangement of slices and routing components
 ![](/uploads/snipaste_2022-06-01_12-41-51.jpg)  
 Modern FPGAs have additional specific resources for speeding up certain operations.  
 e.g. DSP slices, block RAM, microprocessors, AXI interfaces, high-speed transceivers, clock managers, etc..
+
+#### DSP Slice
+
+![](/uploads/snipaste_2022-06-01_12-44-21.jpg)
+
+#### Block RAM
+
+![](/uploads/snipaste_2022-06-01_12-47-36.jpg)
+
+> What if you write different data into both ports to the same destination?
+
+#### Memory Choices
+
+![](/uploads/snipaste_2022-06-01_12-50-38.jpg)
