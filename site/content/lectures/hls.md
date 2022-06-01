@@ -23,21 +23,33 @@ Note: This course doesn't go in detail of how the transpilation works - but is b
 
 ***
 
-Vivado HLS generates an optimised, but largely sequential architecture 
+Vivado HLS generates an optimised, but largely sequential architecture
 
 * Loops and branches are transformed into control logic
 * Conceptually similar to the execution of a RISC processor
   * But the program needs to be converted to an FSM in the RTL rather than being fetched from memory
 * A sequential architecture tends to limit the number of functional units in a design with a focus on resource sharing over massive parallelism
 
-> The modern FPGAs can only operate at 1GHz speeds
+# The modern FPGAs can only operate at 1GHz speeds? Why use a FPGA then????
+
+Think of performance in 'task time in seconds' rather than clock speed.  
+Higher clock speeds do not mean that it is faster.
+
+In FPGA designs we can parallelise things more than a generic CPU instruction can.  
+_See below_
 
 ***
+
+## One Tap Per Clock
 
 ![](/uploads/snipaste_2022-06-01_13-20-07.jpg)  
 Critical Path: 1 mult + 1 adder  
 Task Latency: 4 cycles
 
+## One Sample Per Clock
+
 ![](/uploads/snipaste_2022-06-01_13-20-51.jpg)  
 Critical Path: 1 mult + 2 adder  
 Task Latency: 1 cycle
+
+***
