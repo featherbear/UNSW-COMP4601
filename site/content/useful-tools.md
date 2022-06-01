@@ -22,4 +22,4 @@ options = ""
 
 ## Waveform Diagrams
 
-* [Wavedrom](https://wavedrom.com/)
+* [Wavedrom](https://wavedrom.com/editor.html)
