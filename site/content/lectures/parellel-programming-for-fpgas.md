@@ -1,6 +1,5 @@
 +++
 date = 2022-06-01T01:50:07Z
-draft = true
 hiddenFromHomePage = false
 postMetaInFooter = false
 title = "Parellel Programming for FPGAs"
