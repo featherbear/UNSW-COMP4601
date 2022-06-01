@@ -17,3 +17,7 @@ options = ""
   * Due the week (or two) after
   * Worth 10% each
 * Seminars - 40 minute seminars
+* Project
+  * Organise teams by Week 3
+
+***
