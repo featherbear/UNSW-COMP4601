@@ -32,3 +32,11 @@ e.g. DSP slices, block RAM, microprocessors, AXI interfaces, high-speed transcei
 #### Memory Choices
 
 ![](/uploads/snipaste_2022-06-01_12-50-38.jpg)
+
+#### Design Bases
+
+* Core-based Design Methodology
+  * Custom cores + other provided cores
+* Platform-based Design Methodology
+  * Standard design templates that combine a stable, verified composition of standard cores and IO cores targetting a particular board
+  * Enabled a programmer to integrate algorithms (aka 'roles') provided by a platform (aka 'shell').
