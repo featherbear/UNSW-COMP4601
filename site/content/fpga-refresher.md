@@ -40,3 +40,5 @@ e.g. DSP slices, block RAM, microprocessors, AXI interfaces, high-speed transcei
 * Platform-based Design Methodology
   * Standard design templates that combine a stable, verified composition of standard cores and IO cores targetting a particular board
   * Enabled a programmer to integrate algorithms (aka 'roles') provided by a platform (aka 'shell').
+
+### Performance
