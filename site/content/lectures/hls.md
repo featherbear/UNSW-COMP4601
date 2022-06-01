@@ -53,3 +53,14 @@ Critical Path: 1 mult + 2 adder
 Task Latency: 1 cycle
 
 ***
+
+# Speed Limits
+
+The task interval is limited by **recurrences** (feedback loops) and **resource limits**
+
+Recurrence - where a computation by a component depends on the previous computation by the same component
+
+* i.e. see the above multiplier and adder example
+* These limit the throughput even when pipelining
+
+It's important to restructure the code to maximise the performance of the HLS tool.
