@@ -41,6 +41,7 @@ fields:
     label: options
 pages:
 - site/content/assessment-schedule.md
+- site/content/directives.md
 - site/content/fpga-refresher.md
 - site/content/lectures/hls.md
 - site/content/lectures/implications-of-performance.md
