@@ -43,5 +43,6 @@ pages:
 - site/content/assessment-schedule.md
 - site/content/fpga-refresher.md
 - site/content/lectures/hls.md
+- site/content/lectures/implications-of-performance.md
 - site/content/lectures/parellel-programming-for-fpgas.md
 - site/content/useful-tools.md
