@@ -11,3 +11,9 @@ enable = false
 options = ""
 
 +++
+* Smaller operations may require fewer clock cycles to execute
+* Operations split into smaller operations can be parallelised
+
+If variables are 32 bits wide, then more primitive Boolean operations need to be performed than if they were 8 bits wide (consequently more resources are required)
+
+More complicated logic typically also require more pipelining to achieve the same frequency
