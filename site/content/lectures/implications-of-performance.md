@@ -44,6 +44,6 @@ By default, HLS synthesis `for` loops sequentially; creating a data path that ex
 
 We can insert the directive `#pragma HLS unroll factor=2` to automate this.
 
-If we don't specify a `factor` argument, the loop will be unrolled completely - This maximises the hardware resource usage. The bounds of the loop need to be statically defined (i.e. during compile time).
+If we don't specify a `factor` argument, the loop will be unrolled completely - This **maximises the hardware resource usage** (and takes a long time to synthesise). The bounds of the loop need to be statically defined (i.e. during compile time).
 
 > something something exit check?
