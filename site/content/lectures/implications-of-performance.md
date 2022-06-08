@@ -47,3 +47,21 @@ We can insert the directive `#pragma HLS unroll factor=2` to automate this.
 If we don't specify a `factor` argument, the loop will be unrolled completely - This **maximises the hardware resource usage** (and takes a long time to synthesise). The bounds of the loop need to be statically defined (i.e. during compile time).
 
 > something something exit check?
+
+***
+
+## Loop Pipelining
+
+Overlapping of executions (where possible).  
+We can use the directive `#pragma HLS pipeline II=2` which will attempt to achieve an `II` of 2. If we don't specify the `II` argument, `II` will attempt to be minimised
+
+![](/uploads/snipaste_2022-06-08_12-06-17.png)
+
+***
+
+# Loop Performance Metrics
+
+* Iteration latency - number of cycles it takes to perform one iteration of the loop body
+* Loop latency - number of cycles to complete the entire execution PLUS one to determine if the loop is finished / or a writeback
+  * Vivado HLS defines the loop latency prior to writeback
+* Initiation interval (`II`)- number of cycles before the next iteration of the loop can start
