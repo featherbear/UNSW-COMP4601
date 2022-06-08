@@ -21,7 +21,9 @@ HLS will attempt to optimise clock count as well as optimise clock speed.
 
 ## Operational Chaining
 
-The high-level synthesiser will look at the functions and attempt to reduce the number of clock cycles required by possibly increasing the clock frequency
+The high-level synthesiser will look at the functions and attempt to reduce the number of clock cycles required by possibly increasing the clock frequency.
+
+As we lengthen the clock period ---> slower clock frequency, then we can pack more functionality per cycle.
 
 ## Code Hoisting
 
