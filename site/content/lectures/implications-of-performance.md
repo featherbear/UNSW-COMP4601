@@ -33,7 +33,7 @@ Code optimisation to refactor redundant / uncommon code paths.
 
 ## Loop Fission
 
-Split a loop into multiple loops. This therefore allows the loops to be treated independently (and can run in parallel)
+Split a loop into multiple loops. This therefore allows the loops to be treated and optimised independently <s>(and can run in parallel)</s>
 
 ![](/uploads/snipaste_2022-06-08_11-32-14.png)
 
