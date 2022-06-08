@@ -1,6 +1,5 @@
 +++
 date = 2022-06-08T01:23:22Z
-draft = true
 hiddenFromHomePage = false
 postMetaInFooter = false
 title = "Implications of Performance"
@@ -65,3 +64,9 @@ We can use the directive `#pragma HLS pipeline II=2` which will attempt to achie
 * Loop latency - number of cycles to complete the entire execution PLUS one to determine if the loop is finished / or a writeback
   * Vivado HLS defines the loop latency prior to writeback
 * Initiation interval (`II`)- number of cycles before the next iteration of the loop can start
+
+***
+
+## Bit-width Optimisation
+
+See [here](../bitwidth-optimisation)
