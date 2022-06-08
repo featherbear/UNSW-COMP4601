@@ -12,7 +12,6 @@ enable = false
 options = ""
 
 +++
-
 **There is no good rule to pick the optimal target clock frequency.**
 
 > For this course: start with a clock period of 10ns
@@ -44,3 +43,7 @@ By default, HLS synthesis `for` loops sequentially; creating a data path that ex
 ![](/uploads/snipaste_2022-06-08_11-38-19.png)
 
 We can insert the directive `#pragma HLS unroll factor=2` to automate this.
+
+If we don't specify a `factor` argument, the loop will be unrolled completely - This maximises the hardware resource usage. The bounds of the loop need to be statically defined (i.e. during compile time).
+
+> something something exit check?
