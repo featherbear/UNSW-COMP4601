@@ -1,6 +1,5 @@
 +++
 date = 2022-06-08T02:18:16Z
-draft = true
 hiddenFromHomePage = false
 postMetaInFooter = false
 title = "Directives"
