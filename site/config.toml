@@ -41,16 +41,15 @@ copyright = "Andrew Wong (z5206677)"
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Tutorial PDF"
+  name = "Textbook"
+  weight = 25
+  identifier = "textbook"
+  url = "https://raw.githubusercontent.com/featherbear/UNSW-COMP4601/master/textbook/kastner-parallel-processing-fpgas.pdf"
+[[menu.main]]
+  name = "Tutorials"
   weight = 30
   identifier = "tutorial"
-  url = "https://github.com/featherbear/UNSW-COMP4601/raw/master/ug871-vivado-high-level-synthesis-tutorial.pdf"
-  #
-[[menu.main]]
-  name = "Categories"
-  weight = 20
-  identifier = "categories"
-  url = "/categories/"
+  url = "https://raw.githubusercontent.com/featherbear/UNSW-COMP4601/master/tutorials/ug871-vivado-high-level-synthesis-tutorial.pdf"
 
 [params]
   # fathomHost="stats.example.com"
