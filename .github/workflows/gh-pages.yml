@@ -14,6 +14,7 @@ jobs:
     - uses: actions/checkout@master
       with:
         submodules: true
+        ssh-key: ${{ secrets.PRIV_REPO_SSH }}
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.4.13
