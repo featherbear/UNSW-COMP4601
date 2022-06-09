@@ -41,13 +41,13 @@ copyright = "Andrew Wong (z5206677)"
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "GitHub"
-  weight = 20
-  identifier = "code"
-  url = "https://github.com/featherbear/UNSW-COMP4601"
+  name = "Tutorial PDF"
+  weight = 30
+  identifier = "tutorial"
+  url = "https://github.com/featherbear/UNSW-COMP4601/raw/master/ug871-vivado-high-level-synthesis-tutorial.pdf"
 [[menu.main]]
   name = "Categories"
-  weight = 40
+  weight = 20
   identifier = "categories"
   url = "/categories/"
 
