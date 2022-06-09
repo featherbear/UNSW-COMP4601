@@ -25,17 +25,23 @@ The high-level synthesiser will look at the functions and attempt to reduce the 
 
 As we lengthen the clock period ---> slower clock frequency, then we can pack more functionality per cycle.
 
+***
+
 ## Code Hoisting
 
 Code optimisation to refactor redundant / uncommon code paths.
 
 ![](/uploads/snipaste_2022-06-08_11-30-38.png)
 
+***
+
 ## Loop Fission
 
 Split a loop into multiple loops. This therefore allows the loops to be treated and optimised independently <s>(and can run in parallel)</s>
 
 ![](/uploads/snipaste_2022-06-08_11-32-14.png)
+
+***
 
 ## Loop Unrolling
 
