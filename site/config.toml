@@ -45,6 +45,7 @@ copyright = "Andrew Wong (z5206677)"
   weight = 30
   identifier = "tutorial"
   url = "https://github.com/featherbear/UNSW-COMP4601/raw/master/ug871-vivado-high-level-synthesis-tutorial.pdf"
+  #
 [[menu.main]]
   name = "Categories"
   weight = 20
