@@ -40,12 +40,24 @@ fields:
     name: options
     label: options
 pages:
+- site/content/array-partitioning.md
 - site/content/assessment-schedule.md
+- site/content/axi4-stream-interfaces.md
+- site/content/default-array-hls-configuration.md
 - site/content/directives.md
 - site/content/fpga-refresher.md
+- site/content/identifying-performance-bottlenecks.md
+- site/content/labs/week-4-5-design-analysis-lab-notes.md
 - site/content/lectures/bitwidth-optimisation.md
+- site/content/lectures/cordic.md
+- site/content/lectures/discrete-fourier-transform.md
+- site/content/lectures/fast-fourier-transform.md
 - site/content/lectures/hls.md
 - site/content/lectures/implications-of-performance.md
 - site/content/lectures/parellel-programming-for-fpgas.md
+- site/content/matrix-multiplication.md
+- site/content/memory-devices.md
+- site/content/misc-notes.md
+- site/content/port-i-o-types.md
 - site/content/useful-information.md
 - site/content/useful-tools.md
