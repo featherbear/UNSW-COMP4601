@@ -17,8 +17,6 @@ options = ""
 
 HLS will attempt to optimise clock count as well as optimise clock speed.
 
-![](/uploads/snipaste_2022-07-01_00-10-53.jpg)
-
 ***
 
 ## Operational Chaining
@@ -74,40 +72,10 @@ We can use the directive `#pragma HLS pipeline II=2` which will attempt to achie
 * Loop latency - number of cycles to complete the entire execution PLUS one to determine if the loop is finished / or a writeback
   * Vivado HLS defines the loop latency prior to writeback
 * Initiation interval (`II`)- number of cycles before the next iteration of the loop can start
+  * A higher II value can potentially increase the maximum operating frequency (fMAX) without a decrease in throughput
 
 ***
 
 ## Bit-width Optimisation
 
 See [here](../bitwidth-optimisation)
-
-***
-
-## Task Pipelining
-
-When each stage is described as an independent task with all stages being interlinked in a  
-pipeline, then these stages can be executing concurrently on different data sets. Such a hardware optimisation is task pipelining.
-
-* Rather than waiting for the first task to complete all the required function calls, the second task can commence after the first task has only finished the first function call.
-* The first task continues to execute each stage in the pipeline in order, followed by the remaining tasks in order
-* Once the pipeline is full all sub-functions would be executing concurrently, each operating on different input data
-
-> Requires each stage to be implemented with independent hardware.  
-> Sufficient storage is also needed to contain the intermediate computations
-
-e.g. see [related](../fast-fourier-transform#task-pipelining)  
-![](/uploads/snipaste_2022-07-01_00-03-16.jpg)
-
-![](/uploads/snipaste_2022-07-01_00-03-47.jpg)
-
-^ Can use both `dataflow` directive for coarse, and `pipeline` for fine optimisations
-
-![](/uploads/snipaste_2022-07-01_00-07-49.jpg)
-
-> If we find a critical path that cannot be sped up anymore; then we could potentially "de"-optimise other functions to perform favour slower performance albeit less resource requirements; than for the functions to perform quickly (but being blocked by the critical path function), with higher resource requirements.
-
-![](/uploads/snipaste_2022-07-01_00-10-02.jpg)
-
-> Pipelining the function unrolls all the loops within it, and thus greatly increases the area. If the objective is to get the highest possible performance with no regard for area, this may be the best optimization to perform.
->
-> When pipelining nested loops, it is generally best to pipeline the inner-most loop. Typically, High-Level Synthesis can generally flatten the loop nest automatically (allowing the outer loop to simply feed the inner loop).
