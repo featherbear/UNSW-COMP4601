@@ -79,3 +79,11 @@ We can use the directive `#pragma HLS pipeline II=2` which will attempt to achie
 ## Bit-width Optimisation
 
 See [here](../bitwidth-optimisation)
+
+***
+
+# Loop Interchange
+
+Switching loop variable usage around to reduce repeated lookups
+
+See [here](../discrete-fourier-transform/#optimisation---loop-interchange)
