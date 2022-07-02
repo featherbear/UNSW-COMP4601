@@ -69,7 +69,7 @@ Notes
 * Pipelining reduces the impacts of these high-latency operations
 * However, the loop carry dependency of `temp_real` and `temp_imag` limits the achievable `II` when pipelining the inner loop
 
-## Optimisation - Loop Interchange
+## Optimisation - Loop Interchange / Pipeline-interleaved Processing
 
 > e.g. swap `i` and `j`
 
