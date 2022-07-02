@@ -82,7 +82,7 @@ See [here](../bitwidth-optimisation)
 
 ***
 
-# Loop Interchange
+# Loop Interchange / Pipeline-interleaved Processing
 
 Switching loop variable usage around to reduce repeated lookups
 
