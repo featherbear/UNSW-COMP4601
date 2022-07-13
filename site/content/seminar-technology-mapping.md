@@ -1,6 +1,5 @@
 +++
 date = 2022-07-13T02:27:34Z
-draft = true
 hiddenFromHomePage = false
 postMetaInFooter = false
 title = "Seminar: Technology Mapping"
@@ -39,4 +38,26 @@ Most algorithms prioritise one of the considerations over the other.. how can we
 
 Algorithm to produce a depth-minimsed solution which is delay optimised in polynomial time
 
-![](/uploads/snipaste_2022-07-13_12-33-52.jpg)
+![](/uploads/snipaste_2022-07-13_12-33-52.jpg)  
+![](/uploads/snipaste_2022-07-13_12-35-53.jpg)
+
+## Phase 1: Compute a label for all the nodes
+
+![](/uploads/snipaste_2022-07-13_12-36-35.jpg)  
+![](/uploads/snipaste_2022-07-13_12-38-06.jpg)
+
+## Phase 2: Generate K-LUT
+
+![](/uploads/snipaste_2022-07-13_12-38-15.jpg)
+
+***
+
+# FlowMap Improvements
+
+`K` - number of inputs to the LUT
+
+`K-feasible cut` - Best way to cut the tree (cutting max K lines)
+
+?
+
+***
