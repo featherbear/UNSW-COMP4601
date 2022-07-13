@@ -12,6 +12,13 @@ enable = false
 options = ""
 
 +++
+# Scope
+
+* State Machines
+* Component Connectivity
+
+***
+
 # I/O
 
 * Input
@@ -19,34 +26,33 @@ options = ""
   * Constraints
   * Sequencing Graph
 * Output
-    * Source
-    * Schedule
-    * RTL
+  * Source
+  * Schedule
+  * RTL
+
+***
 
 # Sequencing Graphs
 
 Node-like tree which describes the structure
 
-## 
-
-* State Machines
-* Component Connectivity
-
-## 
-
 # Building blocks in Architectural Synthesis
 
-Functional Resources
-Memory Resources
-Interface Resources
+* Functional Resources
+* Memory Resources
+* Interface Resources
 
 ## Constraints
 
 * Interface constraints - e.g. format and timing of I/O data transfers
 * Implementation constraints - e.g. area and latency
 
----
+***
 
-# Scheduling 
+# Scheduling (temporal synthesis)
 
 Planning when each operation will run
+
+# Binding (spatial synthesis)
+
+Planning of which resources should be assigned or co-assigned (for resource efficiency) to what operations
