@@ -95,3 +95,11 @@ See [here](../discrete-fourier-transform/#optimisation---loop-interchange)
 When pipelining a function, all loops contained in the function are unrolled, which is a requirement for pipelining
 
 Pipelining loops gives you an easy way to control resources, with the option of partially unrolling the design to meet performance.
+
+***
+
+# False Dependencies
+
+> For operations to block RAM (i.e. two ported), we must alternate between reads and writes as long as `x0` and `x1` are independent - in order to complete the operation.
+
+What if they are not actually independent? For instance, we might know that the source of data never produces two consecutive pieces of data that actually have the same bin. What do we do now? If we could give this extra information to the HLS tool, then it would be able to read at location `x1` while writing at location `x0` because it could guarantee that they are different addresses. In Vivado® HLS, this is done using the dependence directive.
