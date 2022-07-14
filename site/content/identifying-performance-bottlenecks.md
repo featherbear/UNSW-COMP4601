@@ -57,7 +57,7 @@ We could potentially pipeline that function, but it would unroll all the loops w
 
 ***
 
-# Loop Tripcoung
+# Loop Tripcount
 
 > NOTE: The `TRIPCOUNT` pragma is for analysis only, and does not impact the results of synthesis.
 
@@ -65,4 +65,4 @@ The `TRIPCOUNT` pragma can be applied to a loop to manually specify the total nu
 
 Vivado HLS reports the total latency of each loop, which is the number of clock cycles to execute all iterations of the loop. The loop latency is therefore a function of the number of loop iterations, or tripcount.
 
-Source: [china.xilinx.com](https://china.xilinx.com/htmldocs/xilinx2017_4/sdaccel_doc/sty1504034367099.html)
+Source: [https://docs.xilinx.com/r/en-US/ug1399-vitis-hls/pragma-HLS-loop_tripcount](https://docs.xilinx.com/r/en-US/ug1399-vitis-hls/pragma-HLS-loop_tripcount "https://docs.xilinx.com/r/en-US/ug1399-vitis-hls/pragma-HLS-loop_tripcount")
