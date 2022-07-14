@@ -41,3 +41,9 @@ Note: The RTL CoSimulation feature requires a block-level I/O protocol to sequen
 # Task Pipelining
 
 `#pragma HLS dataflow`
+
+***
+
+# Array Reshaping
+
+High-Level Synthesis allows arrays to be partitioned, mapped together and re-shaped. These techniques allow the access to an array to be modified without changing the source code.
