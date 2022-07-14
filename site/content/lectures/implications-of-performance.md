@@ -87,3 +87,9 @@ See [here](../bitwidth-optimisation)
 Switching loop variable usage around to reduce repeated lookups
 
 See [here](../discrete-fourier-transform/#optimisation---loop-interchange)
+
+***
+
+# Function Pipelining
+
+> When pipelining a function, all loops contained in the function are unrolled, which is a requirement for pipelining
