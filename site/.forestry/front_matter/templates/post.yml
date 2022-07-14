@@ -47,6 +47,7 @@ pages:
 - site/content/directives.md
 - site/content/fpga-refresher.md
 - site/content/identifying-performance-bottlenecks.md
+- site/content/labs/loop-carry-dependence-affecting-initiation-interval.md
 - site/content/labs/week-4-5-design-analysis-lab-notes.md
 - site/content/lectures/bitwidth-optimisation.md
 - site/content/lectures/cordic.md
