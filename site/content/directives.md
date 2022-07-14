@@ -42,6 +42,10 @@ Note: The RTL CoSimulation feature requires a block-level I/O protocol to sequen
 
 `#pragma HLS dataflow`
 
+Runs multiple functions concurrently
+
+***
+
 ***
 
 # Array Reshaping
