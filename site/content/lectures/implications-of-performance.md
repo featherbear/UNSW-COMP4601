@@ -103,3 +103,7 @@ Pipelining loops gives you an easy way to control resources, with the option of 
 > For operations to block RAM (i.e. two ported), we must alternate between reads and writes as long as `x0` and `x1` are independent - in order to complete the operation.
 
 What if they are not actually independent? For instance, we might know that the source of data never produces two consecutive pieces of data that actually have the same bin. What do we do now? If we could give this extra information to the HLS tool, then it would be able to read at location `x1` while writing at location `x0` because it could guarantee that they are different addresses. In Vivado® HLS, this is done using the dependence directive.
+
+![](/uploads/snipaste_2022-07-15_00-19-09.jpg)
+
+> To overcome this deficiency, you can use the DEPENDENCE directive to provide Vivado HLS with additional information about the dependencies.
