@@ -107,3 +107,15 @@ What if they are not actually independent? For instance, we might know that the 
 ![](/uploads/snipaste_2022-07-15_00-19-09.jpg)
 
 > To overcome this deficiency, you can use the DEPENDENCE directive to provide Vivado HLS with additional information about the dependencies.
+
+Inter: Specifies the dependency is between different iterations of the same loop.  
+If this is specified as FALSE it allows Vivado HLS to perform operations in parallel if the  
+pipelined or loop is unrolled or partially unrolled and prevents such concurrent operation  
+when specified as TRUE.
+
+Intra: Specifies dependence within the same iteration of a loop, for example an array being  
+accessed at the start and end of the same iteration.  
+When intra dependencies are specified as FALSE, Vivado HLS may move operations freely  
+within the loop, increasing their mobility and potentially improving performance or area.  
+When the dependency is specified as TRUE, the operations must be performed in the order  
+specified.
