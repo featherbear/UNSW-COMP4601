@@ -92,4 +92,6 @@ See [here](../discrete-fourier-transform/#optimisation---loop-interchange)
 
 # Function Pipelining
 
-> When pipelining a function, all loops contained in the function are unrolled, which is a requirement for pipelining
+When pipelining a function, all loops contained in the function are unrolled, which is a requirement for pipelining
+
+Pipelining loops gives you an easy way to control resources, with the option of partially unrolling the design to meet performance.
