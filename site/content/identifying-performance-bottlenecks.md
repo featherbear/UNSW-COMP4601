@@ -54,3 +54,15 @@ We can see that `dct` is performing its sub functions in parallel, as its `inter
 We see that `dct_2d` has almost the same interval value as `dct`, so it is likely the bottleneck.  
 We could potentially pipeline that function, but it would unroll all the loops which may lead to a large area increase.  
 **Instead** we could try promote to loops to the top-level by **inlining** where they'll be dataflow optimised
+
+***
+
+# Loop Tripcoung
+
+> NOTE: The `TRIPCOUNT` pragma is for analysis only, and does not impact the results of synthesis.
+
+The `TRIPCOUNT` pragma can be applied to a loop to manually specify the total number of iterations performed by a loop. 
+
+Vivado HLS reports the total latency of each loop, which is the number of clock cycles to execute all iterations of the loop. The loop latency is therefore a function of the number of loop iterations, or tripcount.
+
+Source: [china.xilinx.com](https://china.xilinx.com/htmldocs/xilinx2017_4/sdaccel_doc/sty1504034367099.html)
