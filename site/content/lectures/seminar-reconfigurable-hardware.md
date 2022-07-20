@@ -39,3 +39,45 @@ options = ""
 * Multi-FPGA systems
   * Mesh - better computation
   * Crossbar / SPLASH 2 - better speed
+
+***
+
+# Software
+
+## Manual Systems
+
+> Yes just design the FPGA chip yourself.
+
+Better precision, but need advanced knowledge
+
+## Automated Systems
+
+Eh
+
+***
+
+## Circuit Specification Stage
+
+### Manual
+
+* Hand mapping of the blocks at gate level
+
+### Semi-Automated
+
+* Using structural circuit description language
+* Generic components
+* Requires knowledge of the target
+
+### Automated
+
+* Use a high level language (C, C++, Java)
+* Specify the logic rather than the block design
+
+## Mapping Stage
+
+![](/uploads/snipaste_2022-07-20_12-03-38.jpg)
+
+## Placement Stage
+
+![](/uploads/snipaste_2022-07-20_12-03-59.jpg)  
+![](/uploads/snipaste_2022-07-20_12-04-12.jpg)
