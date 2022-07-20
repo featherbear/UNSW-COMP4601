@@ -56,33 +56,35 @@ Eh
 
 ***
 
-## Circuit Specification Stage
+## Stages
 
-### Manual
+### Circuit Specification Stage
+
+#### Manual
 
 * Hand mapping of the blocks at gate level
 
-### Semi-Automated
+#### Semi-Automated
 
 * Using structural circuit description language
 * Generic components
 * Requires knowledge of the target
 
-### Automated
+#### Automated
 
 * Use a high level language (C, C++, Java)
 * Specify the logic rather than the block design
 
-## Mapping Stage
+### Mapping Stage
 
 ![](/uploads/snipaste_2022-07-20_12-03-38.jpg)
 
-## Placement Stage
+### Placement Stage
 
 ![](/uploads/snipaste_2022-07-20_12-03-59.jpg)  
 ![](/uploads/snipaste_2022-07-20_12-04-12.jpg)
 
-## Routing Stage
+### Routing Stage
 
 ![](/uploads/snipaste_2022-07-20_12-05-10.jpg)
 
