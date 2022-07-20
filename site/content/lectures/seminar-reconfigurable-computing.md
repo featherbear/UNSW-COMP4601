@@ -49,3 +49,18 @@ CGRA for register transfer level reconfiguration - for coarse grained
 ![](/uploads/snipaste_2022-07-20_11-20-02.jpg)  
 ![](/uploads/snipaste_2022-07-20_11-22-40.jpg)  
 ![](/uploads/snipaste_2022-07-20_11-23-45.jpg)
+
+***
+
+# Applications of Runtime Reconfiguration
+
+> Configure the system on the spot
+
+![](/uploads/snipaste_2022-07-20_11-30-32.jpg)
+
+* Security
+* Pattern Matching
+* Networking
+* Finance
+
+***
