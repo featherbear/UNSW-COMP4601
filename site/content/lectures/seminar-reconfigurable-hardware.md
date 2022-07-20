@@ -81,3 +81,11 @@ Eh
 
 ![](/uploads/snipaste_2022-07-20_12-03-59.jpg)  
 ![](/uploads/snipaste_2022-07-20_12-04-12.jpg)
+
+## Routing Stage
+
+![](/uploads/snipaste_2022-07-20_12-05-10.jpg)
+
+***
+
+![](/uploads/snipaste_2022-07-20_12-06-08.jpg)
