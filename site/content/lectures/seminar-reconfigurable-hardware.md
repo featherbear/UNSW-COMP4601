@@ -97,3 +97,14 @@ Eh
 ## Circuit Libraries
 
 ![](/uploads/snipaste_2022-07-20_12-07-19.jpg)
+
+## Circuit Generators
+
+![](/uploads/snipaste_2022-07-20_12-07-56.jpg)
+
+## Other Compiler Functionalities
+
+* Partial evaluation
+* Memory allocation
+* Parallelisation
+* 
