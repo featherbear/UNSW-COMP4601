@@ -64,3 +64,5 @@ CGRA for register transfer level reconfiguration - for coarse grained
 * Finance
 
 ***
+
+Zync 7020 can run the entire Linux kernel, and also do RTR wowee
