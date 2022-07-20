@@ -107,3 +107,19 @@ Eh
 * Partial evaluation
 * Memory allocation
 * Parallelisation
+
+***
+
+# Design Patterns
+
+> We want to balance area cost and latency
+
+* Datapath Serialisation
+* Hardware / Software partitioning
+* Coarse-grain time multiplexing
+
+## Efficient Hardware Reuse
+
+* Pipelining
+* Retiming
+* C-Slow
