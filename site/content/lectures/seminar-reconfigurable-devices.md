@@ -2,7 +2,7 @@
 date = 2022-07-20T01:07:11Z
 hiddenFromHomePage = false
 postMetaInFooter = false
-title = "Seminar: Reconfigurable Computing"
+title = "Seminar: Reconfigurable Devices"
 [flowchartDiagrams]
 enable = false
 options = ""
