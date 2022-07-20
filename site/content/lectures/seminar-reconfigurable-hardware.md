@@ -129,3 +129,17 @@ Eh
 Use `n` registers and spreading them around, reducing critical path
 
 ![](/uploads/snipaste_2022-07-20_12-18-20.jpg)
+
+## Hardware Specialisation
+
+Use hardware bitlevel optimisations
+
+* Instance generator
+* Constructors
+* Template
+
+## Value Added Memory
+
+* Read-Modify-Write cycle
+* Scan-Select-Reorganise
+* Content-Addressable memory (index is equal to the value?)
