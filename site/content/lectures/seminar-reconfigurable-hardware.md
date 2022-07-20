@@ -107,4 +107,3 @@ Eh
 * Partial evaluation
 * Memory allocation
 * Parallelisation
-* 
