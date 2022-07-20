@@ -123,3 +123,9 @@ Eh
 * Pipelining
 * Retiming
 * C-Slow
+
+### C-Slow
+
+Use `n` registers and spreading them around, reducing critical path
+
+![](/uploads/snipaste_2022-07-20_12-18-20.jpg)
