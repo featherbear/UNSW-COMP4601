@@ -98,3 +98,35 @@ An `n`-tuple has `N= floor(bandwidth / sizeof(element))` elements
 ![](/uploads/snipaste_2022-07-27_12-02-39.jpg)
 
 ![](/uploads/snipaste_2022-07-27_12-04-58.jpg)
+
+***
+
+# Macro Architecture
+
+![](/uploads/snipaste_2022-07-27_12-06-29.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-08-21.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-10-05.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-11-50.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-11-59.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-14-04.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-14-17.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-16-07.jpg)
+
+***
+
+# Performance
+
+![](/uploads/snipaste_2022-07-27_12-16-57.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-17-07.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-18-06.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-19-04.jpg)
