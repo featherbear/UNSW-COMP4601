@@ -72,3 +72,29 @@ FPGA designs can obtain a time complexity of `O(log n * log n)`
 
 Common architectures include the bitonic merge sort network, and even-odd networks.  
 For large sets... still an issue..
+
+***
+
+# Optimised Merge-Sort Micro-Architecture
+
+![](/uploads/snipaste_2022-07-27_12-00-17.jpg)
+
+* Bitonic Sorter stage 1 - Optimal sorting of 4 elements
+* Bitonic Half Cleaner - Switching of 2 elements by value
+* Bitonic Sorter stage 2 - Optimal sorting of 4 elements
+
+***
+
+# n-tuple sorting
+
+Imagine we have data of arbitrary size `n`
+
+An `n`-tuple has `N= floor(bandwidth / sizeof(element))` elements
+
+![](/uploads/snipaste_2022-07-27_12-02-14.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-02-23.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-02-39.jpg)
+
+![](/uploads/snipaste_2022-07-27_12-04-58.jpg)
