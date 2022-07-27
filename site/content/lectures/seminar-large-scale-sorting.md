@@ -42,3 +42,18 @@ Issue - the architecture would not allow fast and large implementations with man
 > Time Complexity: O(n^2)
 
 Divide and conquer, based on a pivot point
+
+## Merge Sort
+
+> Time Complexity: O(n log(n))
+
+![](/uploads/snipaste_2022-07-27_11-52-45.jpg)
+
+### FIFO-based Merge Sort
+
+![](/uploads/snipaste_2022-07-27_11-52-59.jpg)
+
+We can cascade several sorters  
+![](/uploads/snipaste_2022-07-27_11-52-56.jpg)
+
+> Each cascade will double the required memory resources
