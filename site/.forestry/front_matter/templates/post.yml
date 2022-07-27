@@ -60,6 +60,7 @@ pages:
 - site/content/lectures/seminar-graph-processing-using-fpgas.md
 - site/content/lectures/seminar-large-scale-sorting.md
 - site/content/lectures/seminar-neural-network-accelerators.md
+- site/content/lectures/seminar-packet-processing.md
 - site/content/lectures/seminar-reconfigurable-hardware.md
 - site/content/matrix-multiplication.md
 - site/content/memory-devices.md
