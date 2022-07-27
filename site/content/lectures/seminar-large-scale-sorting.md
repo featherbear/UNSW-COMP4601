@@ -130,3 +130,7 @@ An `n`-tuple has `N= floor(bandwidth / sizeof(element))` elements
 ![](/uploads/snipaste_2022-07-27_12-18-06.jpg)
 
 ![](/uploads/snipaste_2022-07-27_12-19-04.jpg)
+
+***
+
+![](/uploads/snipaste_2022-07-27_12-21-17.jpg)
