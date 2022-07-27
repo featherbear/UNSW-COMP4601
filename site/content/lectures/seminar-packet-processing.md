@@ -11,3 +11,5 @@ enable = false
 options = ""
 
 +++
+* FPGAs are fast and dynamic
+* 
