@@ -93,4 +93,43 @@ Lookup table / hashtable
 
 ***
 
-# Hardware Design
+# Hardware Design - Acceleration
+
+## Computational Unit Level
+
+e.g. Low bit-width, fast convolutional algorithm
+
+### Binarized Neural Network
+
+* Turn values into binary
+* Convolutional and FC layers can be expressed as binary operations - XnorPopcount
+* Slight loss of accuracy
+  * Some techniques use a gain term to restore the accuracy
+
+### Factorised Dot Product
+
+For non-linear quantisation, if the range of values is small, and the number of possible weights is less than the kernel size - then we can **Add > Multiply** instead of **Multiply > Add**
+
+### Fast Convolution Algorithms
+
+> DFT, FFT, <u>**Winograd**</u>
+
+Convolutions can be expressed as a matrix multiplication!
+
+Image2Column - Convert convolution into a matrix multiplication
+
+![](/uploads/snipaste_2022-07-27_11-39-01.jpg)
+
+Winograd Multiplication - Fast multiplication algorithm
+
+![](/uploads/snipaste_2022-07-27_11-39-09.jpg)
+
+## Layer Level
+
+> Network structure optisations
+
+Loop parameters, data transfer optimisations
+
+## System Design level
+
+Roofline model
