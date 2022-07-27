@@ -57,7 +57,7 @@ pages:
 - site/content/lectures/implications-of-performance.md
 - site/content/lectures/parellel-programming-for-fpgas.md
 - site/content/lectures/seminar-architectural-synthesis.md
-- site/content/lectures/seminar-reconfigurable-computing.md
+- site/content/lectures/seminar-neural-network-accelerators.md
 - site/content/lectures/seminar-reconfigurable-hardware.md
 - site/content/matrix-multiplication.md
 - site/content/memory-devices.md
