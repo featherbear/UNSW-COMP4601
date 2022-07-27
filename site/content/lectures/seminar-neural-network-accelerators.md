@@ -124,12 +124,24 @@ Winograd Multiplication - Fast multiplication algorithm
 
 ![](/uploads/snipaste_2022-07-27_11-39-09.jpg)
 
+> Winograd multiplication is not commonly implemented in an FPGA design as it has a higher resource requirement
+
 ## Layer Level
 
 > Network structure optisations
 
-Loop parameters, data transfer optimisations
+e.g. Loop parameters, data transfer optimisations
+
+### Systolic Array
+
+Reuse data to achieve high parallelism.
+
+![](/uploads/snipaste_2022-07-27_11-41-31.jpg)
 
 ## System Design level
 
-Roofline model
+### Roofline Model
+
+Design efficiency can be expressed by its CTC ratio (computation to communication ratio)
+
+![](/uploads/snipaste_2022-07-27_11-42-41.jpg)
