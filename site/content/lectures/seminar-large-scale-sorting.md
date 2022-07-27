@@ -57,3 +57,18 @@ We can cascade several sorters
 ![](/uploads/snipaste_2022-07-27_11-52-56.jpg)
 
 > Each cascade will double the required memory resources
+
+### Merge Sort Trees
+
+![](/uploads/snipaste_2022-07-27_11-54-11.jpg)
+
+> Backpressure flow control in the network
+
+***
+
+# Sorting Networks
+
+FPGA designs can obtain a time complexity of `O(log n * log n)`
+
+Common architectures include the bitonic merge sort network, and even-odd networks.  
+For large sets... still an issue..
